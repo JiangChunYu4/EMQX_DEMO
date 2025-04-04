@@ -27,7 +27,7 @@ docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p
 1. 先启动message-consumer中的`ComsumerApplication.java`
 2. 再启动message-producer中的`ProducerApplication.java`
 3. 通过postman测试，接口地址为`http://localhost:9090/stats/info?start=29063055&end=29063058`，请求方法为GET，根据实际时间修改start参数和end参数
-<img src="./imgs/postman测试结果.png" width="500px"></img>
+<img src="./imgs/postman测试结果.png" width="600px"></img>
 
 ### 设计思路
 1. message-models模块中定义了消息实体类`Message`，包含`timestamp`和`type`两个属性，之后发送消息和接收消息都会使用到这个类。
