@@ -1,0 +1,8 @@
+server:
+  port: 9090
+
+spring:
+  mqtt:
+    host: tcp://192.168.200.130:1883 # broker连接tcp地址
+    client-id: consumer # 客户端Id
+    default-topic: test # 默认主题

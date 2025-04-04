@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/services/message-consumer/message-consumer.iml" filepath="$PROJECT_DIR$/services/message-consumer/message-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/message-producer/message-producer.iml" filepath="$PROJECT_DIR$/services/message-producer/message-producer.iml" />
+    </modules>
+  </component>
+</project>
